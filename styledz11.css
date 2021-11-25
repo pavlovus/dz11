@@ -7,7 +7,7 @@ body {
   width: 934px;
   margin: 0 auto;
 }
-.header {
+.container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,7 +87,7 @@ body {
   color: #222222;
 }
 .text {
-  font-family: RobotoSlab;
+  font-family: Roboto Slab;
   font-size: 14px;
   color: #777777;
   text-align: center;
@@ -98,9 +98,10 @@ body {
   margin: 0 auto;
   padding-top: 90px;
 }
-.container-2 {
+.form {
   background-color: #222222;
-  margin-top: 120px;
+  padding: 92px 0 115px 0;
+  margin-top: 119px;
 }
 .title-3 {
   color: #ffffff;
@@ -111,6 +112,7 @@ body {
   letter-spacing: -1px;
   text-align: center;
   margin-bottom: 115px;
+  margin-top: 0;
 }
 .inf {
   display: flex;
@@ -120,9 +122,19 @@ body {
   width: 455px;
   margin-bottom: 28px;
 }
+.input:last-child {
+  margin-bottom: 0px;
+}
 .infr {
   width: 100%;
   height: 100%;
+  border-radius: 4px;
+  border: none;
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 14px;
+  color: #bbbbbb;
+  letter-spacing: -0.35px;
 }
 .infr::placeholder {
   font-family: Montserrat;
@@ -143,6 +155,13 @@ body {
   height: 100%;
   width: 100%;
   resize: none;
+  border-radius: 4px;
+  border: none;
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 14px;
+  color: #bbbbbb;
+  letter-spacing: -0.35px;
 }
 .messege::placeholder {
   font-family: Montserrat;
@@ -166,8 +185,11 @@ body {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
 }
 .confirm {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
